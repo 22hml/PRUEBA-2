@@ -1,0 +1,57 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+ #menu button{
+     font-size: 18px ;
+     font-weight: bold;    
+ }
+
+ #menu a{
+     color:#3f3f3f;
+     font-weight: bold;
+     font-size: 18px;
+     
+ }
+.carousel-inner {
+    max-height:39rem;
+}
+
+#img-equipo{
+    max-height:30rem ;
+    width:50%;
+}
+
+#bg-contactos{
+    position:relative;
+    top: -130px;
+} 
+
+ #seccion-contacto{
+    background-color: #1b2a4e;
+    min-height:500px;
+    position:relative;
+}
+
+
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    background: #fbfafa;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
