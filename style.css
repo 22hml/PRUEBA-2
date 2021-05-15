@@ -17,11 +17,6 @@ body {
     max-height:39rem;
 }
 
-#img-equipo{
-    max-height:30rem ;
-    width:50%;
-}
-
 #bg-contactos{
     position:relative;
     top: -130px;
@@ -33,11 +28,11 @@ body {
     position:relative;
 }
 
-
 #contenedor-formulario{
     position:absolute;
     top:30%;
     left:50%;
+    transform: translate(-50%, -50%);
     background: #fbfafa;
     border-radius:5px;
     
@@ -47,11 +42,13 @@ body {
     color: #3f3f3f;
 }
 
+
 footer {
-    background: #1b2a4e;
+    background: white;
     min-height: 100px;;
 }
 footer p{
-    color:#f3f3f3;
+    color:black;
     text-align:center;
+    font-weight: bold;
 }
